@@ -2,7 +2,10 @@
     "name": "anydoor",
     "version": "1.0.0",
     "description": "Tiny NodeJS Static Web server",
-    "main": "index.js",
+    "main": "src/app.js",
+    "bin": {
+        "anydoor": "bin/anydoor"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "eslint .",
@@ -22,7 +25,11 @@
         "url": "https://github.com/Geekxiong/anydoor/issues"
     },
     "homepage": "https://github.com/Geekxiong/anydoor#readme",
-    "dependencies": {},
+    "dependencies": {
+        "chalk": "^2.4.1",
+        "handlebars": "^4.0.11",
+        "yargs": "^11.0.0"
+    },
     "devDependencies": {
         "eslint": "^4.19.1",
         "pre-commit": "^1.2.2"

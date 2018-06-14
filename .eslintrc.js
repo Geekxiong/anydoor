@@ -10,7 +10,7 @@ module.exports = {
      "allow": ["warn", "error", "info"]
     }],
     "indent": [
-      "error", 4
+      "error", 2
     ],
     "linebreak-style": [
       "error",
